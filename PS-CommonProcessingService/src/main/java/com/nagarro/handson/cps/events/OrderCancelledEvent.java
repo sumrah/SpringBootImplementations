@@ -1,0 +1,10 @@
+package com.nagarro.handson.cps.events;
+
+import lombok.Data;
+
+@Data
+public class OrderCancelledEvent {
+
+	private String orderId;
+	private String orderStatus;
+}

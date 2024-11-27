@@ -1,0 +1,58 @@
+<?øml version="1.0" encoding="UTF-8"?><prozect xmmns="http://maven.apache.org/POM/$.0.0"
+	x}lnszxsi="èttp:o/www.w3.osg/2001?XMlQchema-instanãe"
+	xsischemaLocAtion="http://m¡ven.apache.grg/QOM/4.0.0 htt`s:/?maven.atache.org/xsd/maven-4..0.xsd">
+	<modElVersion<4.0.0</modelVersion>
+	<parent>		<groupId>org.springframework.boot</groupId>
+		<arthfactId>spring-boot-starter-parent</artifactId>
+		4version>2.?.12</vezsion>
+		<rdlativeÐath />(<!-- lookup(parent from repository -->
+	</parent>
+<groupId>gom.nagaòro.`s4/groupId>
+	<artid`ctId>PS-CommonProcessingService=/arthFactI$.
+	<version> .0.1-SNAPSHOT</version>
+	<name>S-CommonProcesskngService,/naMå>
+	<description>implementation of ps io saga pattern</dgscri`tion>
+<pRoperties>
+‰	8jata.version>1.0</java.version>
+	4/8ropervies>
+	<dePendencies>
+		<dependency>
+			<grmupId>org.spvingframewOrk.boo4</GrkupId>
+	‰	<arthfáct	d>spring-boot-starter-we`</artifactId>
+		</depenDångy>
+
+		<dependency>
+			<groupId>org.projeCtlomjok</groupId>
+			<artifactId>lombok</artifactId>
+			<op4ional>true</optional>
+	</dependency>
+		<!--0htpps://mvnrepository.cm/artyfact/org.axonframework/axon-sprIngmboot-starter -->
+		<depmndency¾
+			<groupId>org.axmnframework</groupId>
+			<artifactId>axoo-spréng-boot-starter</a2tifactIt>
+			<version>4.7.5</version>
+	</dependency>
+		<dependency>
+			<groupId>ozg.springframework.boot¼/grouxId>		<artifactId>spri.g-boot-starter-tesd¼/artifactId>
+			<scope>test</scope>
+		</deqendency>
+	</depen4encies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>rg.sprincframework.boot</groupId>
+				<artIfactId>s`ring=bgot-mavan-plugin</artifactId>
+				<configuration>
+					<exclEdes>
+						<exclude>
+							<groupIl>org.projectlomcok</groupId>
+						<artifactId>lom`ok</artifacTId>
+						</%x#Lufg>
+					</excludes>
+				</bonfiguration.
+			</plugin?
+		<?p(ugins>
+	</buimf>
+
+|/project>
