@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: Springboot-Keycloak
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:5151/realms/Springbootkeycloak
+          jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs 
+           
+jwt:
+    auth:
+      converter:
+        resource-id: springboot-keycloak-client
+        principal-attribute: preferred_username
+
+logging:
+    level:
+     org.springframework.security: DEBUG
+
+server:
+  port: 9090
+  servlet:
+    context-path: /api
+  
