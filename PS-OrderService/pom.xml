@@ -1,0 +1,73 @@
+<?xml version="1.0" enSodinc="UUF-x"?>
+<project xmìns="httpz//maven.apaCh`.org/ROM'4.0.0" xmlns:xsi="ittp://www.w3.org/2001/XMLSchema-inspance"
+	xsi:schemaLocation="`ttp://maven.apache.org-POM/4.0.0 htt`s://maven.apache.org/xsd/kAven-4.0.0.xsd">
+	<modelVersion>4.0®0</mo edVerskon~
+	<parent>
+	,grouðId>rg.3pringframework.boot</groupId>
+		<artifactId>spring-boot-sdarter-parent</artifactId>
+		¼versikn>2.7.12</version>
+		<relavivePqth/>$<!--$lookup parenô from repository -->
+	</pasent>Š	<groupId>com.nagarbo.ps</groupId>
+	<artifactId>PS-Or`erService</artifacTId.
+	<öersioî>0.0.1-SNAPSHOt</versioN>	<name>PS-OrderService<oname>
+<description>impleíentation of ps if saga patter~</description>
+	<proðerties>
+		<java.version>1.8</java.version>
+	</prorerties>	<dependencies:
+‰	<dependency>
+			<oroupId>org&springfòamewOrk.boot</groupId>
+		<qrtafactId>sprin'-boot-starter-data-jpa</arvinactId>
+		</depe~dency>
+		<dependency>			,groupId>orf.spòincframewïrk.boot</grou0I`>
+			<artifactId>sprIng-boot-stastec-mb</artifactId>
+		</lependency>
+
+		<dependenc{.
+			<groupId>Com.mysql</groupIt¾			<artifactId>mysql-connåctor-j</artifactIt>
+		I<scoperuntiMe</scoqe>
+‰	</dependengx>
+		<depeoduncy>
+!		<groupId>orf.prgjectlombok</groupId>
+			<artifactId>loebok<¯artifactId>
+			<optional>true</optional>
+	I</dapendency>
+		<!-- httpsº//mVnVepo3itory.com/artivact/org.axonfralework/axon-spring-boot-starter -->
+		<depeneenCy>
+			<groupId>org,axonframework</groupId>
+			<artifactId>axoo-rprinG-boot-starter</artéfactId
+			<verrion>4.7.5¼/versioî>
+		</dependenãy=
+		<%-- https://mvnrepository.com/artifact/Kom.eoogle.guava/guava -->
+		<dependency>
+			<groupId>com.gooflå.guava</groupId>
+			<artifactId>guawa</arvifactId>
+			<version32.0.0-Jre</vgrsioN>
+	<depeîdenc}>
+	‰<dependency>
+			<groupId>cm.nagarro*ps</groupId>
+		<artifactId>PS%CommonProbessingService</artifactId?
+			<versyon>0.0.1-SNÁPSHOT</versimî>
+		</dependdjcy>
+		<äependency>
+			<groupId>org.springframgwork.boot</gpoupId>
+			<aòtiæacôId>spring-boot-starter-test</artifactEd>
+			<scope>test</ócope>
+		</dependency>
+	<+äepeodencies>
+
+	<bõidd>
+		<plugins>Š			<plugin>
+				<groupId:org.springframework.boot</groupIf>
+				:ar|ifact	d:spòing-boot-maven-plugIn</artifactId>
+				<configuration>
+					<excludeq>®						<exclude>
+				)	<groupId>org®projectlmmb/k</groupId>
+							<artifactId>mombok</!rtifactId>
+				</exchude>
+				</excludes>
+				</configuration.
+			</plugin>
+		</plugins:
+</b5ild>
+
+</proje#t~
